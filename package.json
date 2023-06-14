@@ -2,9 +2,9 @@
   "name": "projeto1meu",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/Backend/index",
+  "main": "./src/Backend/index.js",
   "scripts": {
-    "start": "node ./src/Backend/index"
+    "start": "node ./src/Backend/index.js"
   },
   "author": "",
   "license": "ISC",
