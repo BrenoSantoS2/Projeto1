@@ -2,10 +2,10 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 
-const databaseMiddleware = require('.src/Backend/middlewares/database-connection');
+const databaseMiddleware = require('./src/Backend/middlewares/database-connection');
 
-const teachersController = require('.src/Backend/controllers/teacher-controller');
-const classesController = require('.src/Backend/controllers/class-controller');
+const teachersController = require('./src/Backend/controllers/teacher-controller');
+const classesController = require('./src/Backend/controllers/class-controller');
 
 const HOST = '127.0.0.1';
 const PORT = 3000;
